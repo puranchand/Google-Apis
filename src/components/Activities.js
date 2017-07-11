@@ -2,6 +2,8 @@
 import React from 'react';
 import axios from 'axios';
 import {Link } from 'react-router'
+import moment from 'moment';
+
 
 
 
@@ -64,7 +66,7 @@ getActivities(){
                               <span>{elem.actor_description}</span>
                               <br/>
                               <a target="_blank" href={elem.activity_url}>
-                                {elem.activity_date}
+                                {moment(elem.activity_date).format('DD MMM')}
                               </a>  
                           </div>
 
@@ -76,15 +78,13 @@ getActivities(){
                       </div>
 
                       <div className='bottom_content'>
-                         likes:{elem.activity_likes}
+                         likes:{elem.activity_likes}&ensp;&ensp;reply:{elem.activity_shares}
                          <a className='comment' href='&&&'>
                          comments:{elem.activity_comments}
                          </a>
                       </div>
 
-                    <div >
-                 
-                    </div>
+                    
 
                 </div>  
 
