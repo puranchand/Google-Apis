@@ -13,17 +13,13 @@ class App extends React.Component {
 
    render() {
       return (
-         <div >
-            
-            
+         <div > 
             <ul>
             <Link to='Activities'><n className='header'>Activities</n></Link>
             &ensp;&ensp;
-            <Link to='Analytics'><n className='header'>Analytics</n></Link>
-        
-            
-            
+            <Link to='Analytics'><n className='header'>Analytics</n></Link> 
             </ul>
+
             {this.props.children}
 			</div>
       )

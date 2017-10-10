@@ -16,14 +16,16 @@ ul{
 	margin: 0 auto;
 }
 
-.Analytics{
-	width: 100%;
-	max-width: 1000px;
-	float: left;
+.Analytics {
+    width: 100%;
+    max-width: 500px;
+    float: left;
 }
+
 .Analytics_div{
-	width: 50%;
+	width: 100%;
 	padding: 10px;
+	max-width: 400px;
 	
 }
 
@@ -45,6 +47,7 @@ height: 100%;
 width: 20%;
 float: left;
 }
+
 .imageSide{
 height: 100%;
 width: 80%;

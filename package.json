@@ -41,6 +41,8 @@
     "webpack-dev-server": "^1.16.5"
   },
   "dependencies": {
+    "axios": "^0.16.2",
+    "moment": "^2.18.1",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "react-redux": "^5.0.5",
